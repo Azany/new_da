@@ -7,6 +7,7 @@ mech:
     cauldron:
         permissions: You dont have permission to cook this recipe.
         leaky: Cauldron has a leak!
+        create: Cauldron Created!
         legacy-not-a-recipe: Hmm, this doesn't make anything...
         cook: 'You have cooked the recipe:'
         stir: You stir the cauldron but nothing happens.
@@ -37,6 +38,7 @@ mech:
         sit: You are now sitting!
         stand: You are no longer sitting!
         floating: This chair has nothing below it!
+        obstructed: This chair is obstructed!
         in-use: This chair is in use!
         too-far: This chair is too far away!
     hiddenswitch:
@@ -62,14 +64,15 @@ mech:
         crush:
             created: Piston Crush Mechanic Created!
     group: You are not in the required group!
+    bounceblocks:
+        create: BounceBlock Created!
+        invalid-velocity: You need to enter a valid velocity on the 3rd line!
     command:
         create: Command Sign Created!
     command-items:
         out-of-sync: Inventory became out of sync during usage of command-items!
-        wait-seconds: seconds to use this again!
-        need: You need
-        wait: You have to wait
-        need-use: to use this command!
+        need: You need %item% to use this command!
+        wait: You have to wait %time% seconds to use this again!
     teleport:
         create: Teleporter Created!
         alert: You Teleported!
